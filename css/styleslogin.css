@@ -1,0 +1,149 @@
+*{
+  font-family: helvetica;
+}
+body{
+  background-color: #E0E1E1;
+}
+.wrapp{
+  margin: 30px auto;
+  text-align: center;
+}
+nav{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #1FC238;
+}
+.logo{
+  float:left;
+  margin-left:15px;
+  height: 37px;
+border: 1px solid white;
+border-radius: 0.25em;
+padding:1px;
+}
+.logo img{
+  height: 37px;
+}
+.navlist{
+  list-style-type: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  padding:0;
+  overflow: hidden;
+}
+.activo{
+  float: right;
+}
+.activo a{
+  height:22px;
+  display: block;
+  color:#094D03;
+  background:#D9FCDE;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em ;
+  padding: 10px 30px;
+}
+.navitems{
+  float:right;
+}
+.navitems a{
+  height: 22px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em ;
+  color:white;
+  padding: 10px 30px;
+}
+.navitems a:hover{
+  background-color:#094D03;
+}
+.mainbox{
+  padding-top: 50px;
+}
+.login{
+  display: inline-block;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #D9FCDE;
+}
+.title h2{
+  font-weight: 400;
+}
+.entrada{
+  border-radius: 3px;
+  height:2em;
+  width:16em;
+}
+.bottonIngresar{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #1FC238;
+  width: 10em;
+  height: 2em;
+  font-weight: bolder;
+  font-size: 1em;
+  color: white;
+}
+.bottonIngresar:hover{
+background-color: #094D03;
+}
+.subvinculo2{
+  font-weight: normal;
+  color:blue;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+.subvinculo{
+  font-weight: normal;
+  color:blue;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+@media screen and (max-width:870px){
+.navlist{
+  margin-right: 0;
+}
+.navitems{
+  clear: both;
+  width:100%;
+  padding:0px;
+}
+.activo{
+  clear: both;
+  width:100%;
+  padding:0px;
+}
+.navitems a{
+  padding-left: 0px;
+  display: block;
+  width:100%;
+  text-align: center;
+}
+.activo a{
+  padding-left: 0px;
+  display: block;
+  width:100%;
+  text-align: center;
+}
+.logo{
+  clear:both;
+  margin-right: 25%;
+  margin-left: 25%;
+  width:50%;
+  }
+}
+@media screen and (max-width:320px) {
+.login{
+  width: 200px;
+}
+.logo{
+  margin: 0 16%;
+}
+.entrada{
+  width: 12em;
+}
+}

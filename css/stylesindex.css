@@ -1,0 +1,57 @@
+*{
+  font-family: helvetica;
+}
+body{
+  background-color: #E0E1E1;
+}
+.wrapp{
+  margin: 30px auto;
+  text-align: center;
+}
+
+
+.mainbox{
+  padding-top: 50px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+
+.title h2{
+  font-weight: 400;
+}
+.entrada{
+  border-radius: 3px;
+  height:2em;
+  width:16em;
+}
+
+
+@media screen and (max-width:320px) {
+.login{
+  width: 200px;
+}
+.entrada{
+  width: 12em;
+}
+}
+
+.boxpreguntas{
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #D9FCDE;
+    margin: 35px;
+}
+
+h1{
+  text-align: center;
+}
+
+.indexmainbox{
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #D9FCDE;
+  margin: 35px;
+}

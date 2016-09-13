@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+@import url(https://fonts.googleapis.com/css?family=Varela&subset=latin,latin-ext);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+*{
+  box-sizing: border-box;
+}
+
+body{font-family: 'Open Sans', sans-serif;
+ font-size: 18px;
+width:98%;
+background-image: url(../images/bghome.jpeg);
+background-color: transparent;
+   margin: 0;
+background-position: top;
+background-size:cover;
+position: relative;
+}
+
+.alta {
+background-color:  rgba(75, 228, 100, 0.35);
+}
+
+ p{text-decoration: none;
+  margin: auto;
+  padding:0;
+  position: absolute;;
+}
+
+header{
+display: block;
+  font-family: "Open Sans";
+  font-size: 1.2em;
+
+  margin-left: 1%;
+  padding:0.5em;
+  margin-bottom: 2%;
+  margin-top: 2%;
+
+  /*text-align: left;*/
+  border-radius: 1em;
+
+background-color:  rgba(211, 232, 144, 0.62);
+}
+
+.logo {
+
+  display: inline-block;
+  }
+.cuerpo_form {position: relative;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+form {
+  position: relative;
+  margin-left: 1%;
+  padding:2em;
+  /*text-align: left;*/
+  border-radius: 1em;
+  background-color: rgba(211, 232, 144, 0.62);
+
+}
+
+.clear {
+  clear: both;
+}
+
+
+.div1, .div2, .div3  {
+  /*padding-left: 2em;
+  padding-right: 2em;*/
+  float: left;
+  width: 33.3%;
+}
+
+.gen{
+  display: inline-block;
+  width:5%;
+  margin: 0;
+  padding: 0;
+}
+input , select{
+  display: block;
+
+  width: 85%;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+}
+
+input:focus{
+  outline-color: lightgrey;
+  outline-width:medium;
+  outline-style: groove;
+color: white;
+background-color: rgba(158, 158, 158, 0.4);
+}
+
+legend {
+  /*padding: 0.5em;*/
+display: block;
+margin: auto;
+  margin-bottom: 10%;
+}
+
+.boton{
+
+  font-size: 0.9em;
+  padding: 0.7em;
+border-radius: 0.5em;
+background-color: rgba(97, 95, 95, 0.02);
+color:black;
+font-weight: bold;
+text-shadow: 2px 2px white;
+/*border-bottom: 1px;*/
+border-color:white;
+padding: 0.75em;
+
+
+}
+
+.button {background-color: rgba(97, 95, 95, 0.0005);
+
+
+}
+
+.sect {
+  width:100%;
+}
+.botones{
+  text-align: center;
+}
+label .gen
+ {
+   padding-left: 0.25em;
+   width:100%;
+
+ }
+label {
+  padding-right: 1em;
+
+
+}
+
+
+footer div{
+
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  width:32%;
+  height: 5vh;
+  background-color: rgba(25, 23, 23, 0.76);
+ border:solid 1px #1ff;
+ border-radius:0.75em;
+ z-index: 3;
+}
+
+footer div a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 1em;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 4%;
+  width: 78%;
+}
+.copy {
+  font-size: 0.7em;
+    font-variant: small-caps;
+display:block;
+position: absolute;
+right: 5%;
+}
+
+@media (max-width: 550px){
+
+
+  .div1, .div2, .div3  {
+    /*padding-left: 2em;
+    padding-right: 2em;*/
+  clear: both;
+  margin: auto;
+    width: 100%;
+  }
+}

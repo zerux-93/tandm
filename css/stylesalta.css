@@ -1,0 +1,129 @@
+*{
+  font-family: helvetica;
+}
+body{
+  background-color: #E0E1E1;
+}
+.wrapp{
+  margin: 30px auto;
+  text-align: center;
+}
+nav{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #1fc238;
+}
+.navlist{
+  list-style-type: none;
+
+  margin-top: auto;
+  margin-bottom: auto;
+/*margin-bottom: 10px;*/
+margin-right: 20px;
+  padding:0;
+  overflow: hidden;
+}
+.navitems{
+  float:right;
+}
+
+
+.navtitulo {
+
+  float:right;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding-left: 1%;
+  padding-right: 20%;
+  z-index: 1000;
+/*margin-top: 20px;*/
+margin-top: auto;
+margin-bottom: auto;
+}
+.navtitulo a{
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em ;
+  color:white;
+  padding: 15px ;
+}
+.navitems a{
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em ;
+  color:white;
+  padding: 10px 30px;
+}
+.navitems a:hover{
+  background-color:#D9FCDE;
+}
+.mainbox{
+  padding-top: 50px;
+}
+.login{
+  display: inline-block;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #D9FCDE;
+}
+.title h2{
+  font-weight: 400;
+}
+.entrada{
+  border-radius: 3px;
+  height:2em;
+  width:16em;
+}
+.bottonIngresar{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #1FC238;
+  width: 10em;
+  height: 2em;
+  font-weight: bolder;
+  font-size: 1em;
+  color: white;
+}
+.bottonIngresar:hover{
+background-color: #81D68E;
+}
+.subvinculo2{
+  font-weight: normal;
+  color:blue;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+.subvinculo{
+  font-weight: normal;
+  color:blue;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+@media screen and (max-width:650px){
+.navlist{
+  margin-right: 0;
+}
+.navitems{
+  clear: both;
+  width:100%;
+  padding:0px;
+}
+.navitems a{
+  padding-left: 0px;
+  display: block;
+  width:100%;
+  text-align: center;
+}
+}
+@media screen and (max-width:320px) {
+.login{
+  width: 200px;
+}
+.entrada{
+  width: 12em;
+}
+}
